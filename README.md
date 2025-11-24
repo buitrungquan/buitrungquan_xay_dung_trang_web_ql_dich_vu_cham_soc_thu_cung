@@ -20,18 +20,8 @@
 </div>
  
 ## 📖 1. Giới thiệu
-Hệ thống Đặt vé Xem phim Trực tuyến được phát triển như một Bài tập lớn (BTL) môn học Phát triển mã nguồn mở tại Khoa Công nghệ Thông tin, *Đại học Đại Nam*.
-
-Hệ thống cung cấp giải pháp toàn diện để quản lý các nghiệp vụ của rạp chiếu phim và cho phép khách hàng thực hiện việc đặt vé online một cách tiện lợi.
 
 *`Các chức năng chính:`*
-- Dành cho `Khách hàng` (Client): Xem thông tin phim, suất chiếu, chọn ghế trực quan, đặt vé.
-
-- Dành cho `Quản trị viên` (Admin):
-
-  - Quản lý Phim, Suất chiếu, Phòng chiếu và Sơ đồ ghế.
-
-  - Quản lý Người dùng và Đơn đặt vé.
 
 ## 🔧 2. Các công nghệ được sử dụng
 <div align="center">
