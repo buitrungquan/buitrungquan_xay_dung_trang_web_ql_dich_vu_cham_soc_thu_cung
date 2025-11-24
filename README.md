@@ -80,40 +80,34 @@ Chức năng dành cho Quản trị viên (Admin)
 
 ## 🚀 3. Hình ảnh các chức năng
 ### Trang Chính
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh1.png" />
+<img src="image/anh1.jpg" width="1902" alt="" />
 
 ### Trang Đăng Nhập
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh2.png" />
+<img src="image/anh2.jpg" width="1902" alt="" />
 
 ### Trang Đăng Ký
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh3.png" />
+<img src="image/anh3.jpg" width="1902" alt="" />
 
-### Trang Project
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh4.png" />
+### Trang Dashboard
+<img src="image/anh4.jpg" width="1902" alt="" />
 
-### Trang Lịch sử mua vé
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh5.png" />
+### Trang Quản Lý Khách Hàng 
+<img src="image/anh5.jpg" width="1902" alt="" />
 
-### Trang Admin Tổng quan
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh6.png" />
+### Trang Quản Lý Dịch Vụ 
+<img src="image/anh6.jpg" width="1902" alt="" />
 
-### Trang Admin người dùng
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh7.png" />
+### Trang Quản Lý Sản Phẩm 
+<img src="image/anh7.jpg" width="1902" alt="" />
 
-### Trang Admin quản lý phim
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh8.png" />
+### Trang Quản Lý Lịch Hẹn
+<img src="image/anh8.jpg" width="1902" alt="" />
 
-### Trang Admin rạp chiếu phỉm
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh9.png" />
+### Trang Sản Phẩm 
+<img src="image/anh9.jpg" width="1902" alt="" />
 
-### Trang Admin Phòng chiếu phỉm
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh10.png" />
-
-### Trang Admin đặt vé
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh11.png" />
-
-### Trang Admin tìm kiếm
-<img width="1902" height="931" alt="image" src="./documents/imgWeb/anh12.png" />
+### Trang Giỏ Hàng 
+<img src="image/anh10.jpg" width="1902" alt="" />
 
 
 
