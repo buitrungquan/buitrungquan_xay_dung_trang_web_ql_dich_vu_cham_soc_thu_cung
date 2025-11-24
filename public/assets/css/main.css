@@ -1,0 +1,302 @@
+/* ============================================
+   Main Styles - Pet Care Management System
+   ============================================ */
+
+:root {
+    --primary-color: #667eea;
+    --secondary-color: #764ba2;
+    --accent-color: #ffd166;
+    --success-color: #22c55e;
+    --danger-color: #ef4444;
+    --warning-color: #facc15;
+    --info-color: #06b6d4;
+    --light-bg: #f9f7ff;
+    --dark-text: #1f1f3d;
+    --border-color: #e5e7eb;
+    --shadow: 0 10px 30px rgba(102, 126, 234, 0.15);
+    --shadow-lg: 0 25px 60px rgba(102, 126, 234, 0.25);
+}
+
+/* ============================================
+   Sidebar Styles
+   ============================================ */
+
+.sidebar {
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    position: sticky;
+    top: 0;
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar .nav-link i {
+    font-size: 1.2rem;
+    width: 24px;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transform: translateX(5px);
+}
+
+/* ============================================
+   Main Content Area
+   ============================================ */
+
+.main-content {
+    background: var(--light-bg);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* ============================================
+   Cards & Components
+   ============================================ */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+}
+
+.card-header {
+    background: white;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 15px 15px 0 0 !important;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.stat-card {
+    border-radius: 15px;
+    transition: transform 0.2s;
+    border: none;
+    overflow: hidden;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card .card-body {
+    padding: 25px;
+}
+
+/* ============================================
+   Buttons
+   ============================================ */
+
+.btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.btn-sm {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+}
+
+/* ============================================
+   Tables
+   ============================================ */
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: var(--light-bg);
+}
+
+.table thead th {
+    border: none;
+    font-weight: 600;
+    color: var(--dark-text);
+    padding: 15px;
+}
+
+.table tbody td {
+    padding: 15px;
+    vertical-align: middle;
+    border-top: 1px solid var(--border-color);
+}
+
+.table tbody tr:hover {
+    background: rgba(15, 23, 42, 0.02);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(37, 99, 235, 0.08);
+}
+
+/* ============================================
+   Forms
+   ============================================ */
+
+.form-control,
+.form-select {
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    outline: none;
+}
+
+.form-label {
+    font-weight: 500;
+    color: var(--dark-text);
+    margin-bottom: 8px;
+}
+
+/* ============================================
+   Product Toolbar
+   ============================================ */
+
+.product-toolbar .card-body {
+    background: linear-gradient(120deg, rgba(37, 99, 235, 0.05), rgba(14, 165, 233, 0.05));
+    border-radius: 18px;
+}
+
+.product-toolbar .input-group-text,
+.product-toolbar .form-control,
+.product-toolbar .btn {
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.product-toolbar .form-control {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+/* ============================================
+   Alerts
+   ============================================ */
+
+.alert {
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.alert-dismissible .btn-close {
+    padding: 0.75rem 1rem;
+}
+
+/* ============================================
+   Badges
+   ============================================ */
+
+.badge {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+/* ============================================
+   Utilities
+   ============================================ */
+
+.shadow-sm {
+    box-shadow: var(--shadow);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.bg-primary {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+}
+
+/* ============================================
+   Responsive Design
+   ============================================ */
+
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+    }
+    
+    .main-content {
+        padding: 15px;
+    }
+    
+    .stat-card {
+        margin-bottom: 15px;
+    }
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* ============================================
+   Loading States
+   ============================================ */
+
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.15em;
+}
+

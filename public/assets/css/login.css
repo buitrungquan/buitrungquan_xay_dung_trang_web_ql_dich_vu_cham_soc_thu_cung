@@ -1,0 +1,331 @@
+/* ========== Auth Layout (Aligned with new template) ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.auth-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at top left, #d8dcff 0%, #f7ecff 40%, #fefefe 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.auth-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 32px;
+    box-shadow: 0 40px 80px rgba(102, 126, 234, 0.25);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    overflow: hidden;
+    border: 1px solid rgba(102, 126, 234, 0.1);
+    gap: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.auth-showcase {
+    padding: 50px 45px;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(118, 75, 162, 0.15));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(102, 126, 234, 0.15);
+    color: #4c51bf;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+}
+
+.auth-showcase h1 {
+    font-size: 2.2rem;
+    color: #1f1f3d;
+    margin-bottom: 16px;
+    line-height: 1.35;
+}
+
+.auth-showcase p {
+    color: #4b5563;
+    margin-bottom: 24px;
+    font-size: 1rem;
+}
+
+.auth-feature-list {
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.auth-feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #2f2f47;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.auth-feature-list i {
+    color: #28c76f;
+}
+
+.auth-stats {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    flex: 1;
+    min-width: 140px;
+    background: white;
+    border-radius: 16px;
+    padding: 18px;
+    box-shadow: inset 0 0 0 1px rgba(102, 126, 234, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-card strong {
+    font-size: 1.8rem;
+    color: #4c51bf;
+}
+
+.stat-card span {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.auth-card {
+    padding: 50px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth-card-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1f1f3d;
+}
+
+.auth-card-header p {
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.auth-form .form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: #2f2f47;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: #f8fafc;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    outline: none;
+    background: white;
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.15);
+}
+
+.input-icon {
+    position: absolute;
+    right: 16px;
+    top: 45px;
+    color: #9ca3af;
+}
+
+.password-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-field .form-control {
+    padding-right: 48px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    color: #6b7280;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.toggle-password:focus {
+    outline: none;
+    color: #4c51bf;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 600;
+    box-shadow: 0 20px 30px -15px rgba(102, 126, 234, 0.8);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 25px 35px -15px rgba(102, 126, 234, 0.9);
+}
+
+.alert {
+    border-radius: 12px;
+    border: none;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 24px;
+    color: #4b5563;
+}
+
+.register-link a {
+    color: #4c51bf;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.forgot-link {
+    font-size: 0.9rem;
+    color: #4c51bf;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+.floating-shapes {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(102, 126, 234, 0.15);
+    filter: blur(0);
+    animation: float 18s ease-in-out infinite;
+}
+
+.shape:nth-child(1) {
+    width: 420px;
+    height: 420px;
+    top: -150px;
+    left: -120px;
+}
+
+.shape:nth-child(2) {
+    width: 280px;
+    height: 280px;
+    bottom: -80px;
+    right: -60px;
+    animation-delay: 4s;
+}
+
+.shape:nth-child(3) {
+    width: 180px;
+    height: 180px;
+    top: 20%;
+    right: 15%;
+    animation-delay: 8s;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    50% {
+        transform: translate(20px, -30px) scale(1.05);
+    }
+}
+
+@media (max-width: 992px) {
+    .auth-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-showcase {
+        order: 2;
+        padding: 40px 30px;
+    }
+
+    .auth-card {
+        order: 1;
+        padding: 40px 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    body.auth-body {
+        padding: 20px 12px;
+    }
+
+    .auth-wrapper {
+        border-radius: 20px;
+    }
+
+    .auth-showcase h1 {
+        font-size: 1.8rem;
+    }
+
+    .stat-card {
+        flex: 1 1 100%;
+    }
+}
+
