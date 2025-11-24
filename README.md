@@ -198,4 +198,4 @@ Sau khi đăng nhập Admin có thể:
 Tạo thông tin liên quan
 
 ## Báo cáo & phân tích nghiệp vụ
-Chúng tôi đã làm chi tiết bài báo cáo và phân tích chi tiết thông tin [Tại đây](./BTL_Mã%20Nguồn%20mở.docx)
+Chúng tôi đã làm chi tiết bài báo cáo và phân tích chi tiết thông tin [Tại đây](NHÓM%207_BUI_TRUNG_QUÂN.docx)
