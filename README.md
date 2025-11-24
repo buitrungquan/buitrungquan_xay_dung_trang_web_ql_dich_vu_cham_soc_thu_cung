@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-    XÂY DỰNG ỨNG DỤNG WEB QUẢN LÝ ĐẶT VÉ ONLINE
+    XÂY DỰNG TRANG WEB QUẢN LÝ DỊCH VỤ CHĂM SÓC THÚ CƯNG 
 </h2>
 <div align="center">
     <p align="center">
