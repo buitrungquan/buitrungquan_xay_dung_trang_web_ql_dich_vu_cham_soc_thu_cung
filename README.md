@@ -21,7 +21,37 @@
  
 ## 📖 1. Giới thiệu
 
-*`Các chức năng chính:`*
+1. Giới thiệu
+
+Đề tài “Xây dựng ứng dụng web quản lý dịch vụ chăm sóc thú cưng” được thực hiện trong khuôn khổ Bài tập lớn môn Phát triển mã nguồn mở, thuộc Khoa Công nghệ Thông tin – Trường Đại học Đại Nam.
+
+Trong bối cảnh nhu cầu chăm sóc thú cưng ngày càng tăng, các cơ sở dịch vụ cần một hệ thống quản lý hiện đại, tự động hóa quy trình làm việc và hỗ trợ khách hàng đặt lịch một cách thuận tiện. Vì vậy, nhóm thực hiện đã xây dựng một ứng dụng web giúp quản lý toàn bộ hoạt động liên quan đến dịch vụ chăm sóc thú cưng, từ khách hàng – thú cưng – dịch vụ – lịch hẹn cho đến hóa đơn.
+
+Hệ thống hướng đến việc đơn giản hóa thao tác cho quản trị viên, đồng thời mang đến trải nghiệm nhanh chóng và dễ sử dụng cho khách hàng.
+
+    Chức năng dành cho Khách hàng (Client)
+
+    Xem danh sách các dịch vụ chăm sóc thú cưng.
+
+    Quản lý thông tin thú cưng của mình.
+
+    Đặt lịch hẹn dịch vụ trực tuyến.
+ 
+    Theo dõi hóa đơn và lịch sử đặt lịch.
+
+Chức năng dành cho Quản trị viên (Admin)
+
+    Quản lý khách hàng.
+
+    Quản lý thú cưng.
+
+    Quản lý dịch vụ.
+ 
+    Quản lý lịch hẹn.
+
+    Quản lý hóa đơn.
+
+    Quản lý người dùng hệ thống (users).
 
 ## 🔧 2. Các công nghệ được sử dụng
 <div align="center">
